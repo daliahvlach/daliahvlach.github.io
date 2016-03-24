@@ -15,13 +15,15 @@
 	</head>
 	<body>
 	<div id="wrapper">
+		<div id="preloader"></div>
+
 		<header  style="background-color: white; opacity: 0.5">
 			<div class="container" align="center" >
 				<span>Daliah Vlach</span>
 				<h1>Interior Design</h1>
 			</div>
 		</header>	
-		<div class="col-md-3">
+		<div class="col-md-3" style="margin-top: 5%">
 			<h1>Some text</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
@@ -90,6 +92,17 @@
 		<script>
 			$(function() {
 				cbpBGSlideshow.init();
+			});
+		</script>
+		<script>
+
+
+			jQuery(document).ready(function ($) {
+			    $(window).load(function () {
+			        setTimeout(function(){
+			            $('#preloader').fadeOut('slow',function(){$(this).remove();});
+			        },5000); // set the time here
+			    });  
 			});
 		</script>
 	</body>
