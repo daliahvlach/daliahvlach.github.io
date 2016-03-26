@@ -1,0 +1,48 @@
+
+/*Header*/
+
+header {
+	background-color: rgba(216, 216, 216, 0.7);
+}
+.top-margin {
+	margin-top: 5%;
+}
+
+/*Colors*/
+
+.main-color {
+	color: #E29968;
+}
+.content-color {
+	color: #D8D8D8;
+	text-align: justify;
+}
+
+/*Footer*/
+
+footer {
+	position: absolute; 
+	bottom: 0; 
+	width: 100%
+	}
+
+#nav-settings {
+	background-color: rgba(216,216,216,0.7); 
+	border-radius: 0px; 
+	min-height: 30px
+}
+
+#nav-style {
+	padding: 10px; 
+	background-color: transparent; 
+	color:#504746;
+}
+
+#nav-social {
+	padding: 10px; background-color: transparent; color:#BB7F56;
+}
+
+#upper {
+	text-transform: uppercase;
+	font-family: 'ITC Berkeley Oldstyle Std'
+}
