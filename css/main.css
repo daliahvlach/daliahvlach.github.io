@@ -8,14 +8,62 @@ header {
 	margin-top: 5%;
 }
 
+.address-margin {
+	margin-top: 15%
+}
+
+
+/*Body*/
+
+.overflow {
+	height: 300px;
+  overflow: auto;
+}
+
+#link {
+	color: #D8D8D8 ;
+	text-decoration: none;
+}
+
+body h1, h2, h3, h4, h5, h6 {
+    font-family: 'ApexNew-Book';
+    color: #00000;
+}
+
+li a {
+	font-family: 'ApexNew-Book';
+	color: #504746;
+}
+
+p {
+	font-family: 'ApexNew-Book';
+	font-size: 18px;
+    color: #00000;
+}
+
+a {
+	font-family: 'ApexNew-Book';
+	text-decoration: none;
+}
+
 /*Colors*/
 
 .main-color {
 	color: #E29968;
+	text-transform: uppercase;
 }
 .content-color {
 	color: #D8D8D8;
 	text-align: justify;
+}
+
+.project-color {
+	color: #D8D8D8;
+	text-transform: uppercase;
+}
+.project-other {
+	color: #736865;
+	text-transform: uppercase;
 }
 
 /*Footer*/

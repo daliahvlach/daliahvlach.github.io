@@ -5,10 +5,10 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<title>Daliah Vlach</title>
-		<meta name="description" content="Blueprint: Background Slideshow" />
-		<meta name="keywords" content="blueprint, background image slideshow, fullscreen slideshow, jquery, fullscreen image, web development" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico">
+		<meta name="description" content="Daliah Vlach" />
+		<meta name="keywords" content="daliah vlach, interior, design, " />
+		<meta name="author" content="decKode" />
+		<link rel="shortcut icon" href="/images/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
@@ -18,21 +18,24 @@
 	</head>
 	<body>
 	<div id="wrapper">
-		<div id="preloader"></div>
+		<div id="preloader-welcome"></div>
 
 		<header >
 			<div class="container" align="center" >
-				<img src="images/logo.png" width="300px" alt="" class="src">
+				<a href="index.html"><img src="images/logo.png" width="300px" alt="" class="src"></a>
 			</div>
 		</header>	
 		<div class="col-md-4 top-margin" >
 			<h1 class="main-color">WELCOME</h1>
 			<p class="content-color">Welcome to DV Interiors, where we create
 				luxury living environments of impeccable
-				quality. Our Nairobi based company provides
+				quality. 
+				<Br><br>
+				Our Nairobi based company provides
 				a comprehensive interior architectural and
 				decorative design service for high-end
 				residential and hospitality properties.
+				<Br>
 				Combining Swiss Perfection with London’s
 				Edge and Africa’s Spirit, we provide a
 				personalized service delivered to an
@@ -109,8 +112,8 @@
 			jQuery(document).ready(function ($) {
 			    $(window).load(function () {
 			        setTimeout(function(){
-			            $('#preloader').fadeOut('slow',function(){$(this).remove();});
-			        },1000); // set the time here
+			            $('#preloader-welcome').fadeOut('slow',function(){$(this).remove();});
+			        },2000); // set the time here
 			    });  
 			});
 		</script>

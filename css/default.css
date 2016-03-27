@@ -12,6 +12,15 @@
 	font-style: normal;
 }
 
+@font-face {
+  font-family: ApexNew-Book;
+  src: url(../fonts/ApexNew-Book.otf);
+}
+
+@font-face {
+  font-family: ITC Berkeley Oldstyle Std;
+  src: url(../fonts/BerkeleyStd-Book.otf);
+}
 body, html { font-size: 100%; 	padding: 0; margin: 0;}
 
 /* Reset */
@@ -35,26 +44,26 @@ body, html { font-size: 100%; 	padding: 0; margin: 0;}
 }
 
 body h1, h2, h3, h4, h5, h6 {
-    font-family: 'Apex New';
+    font-family: ApexNew-Book;
     color: #00000;
 
 }
 
 li a {
-	font-family: 'Apex New';
+	font-family: ApexNew-Book;
 	color: #504746;
 
 
 }
 
 p {
-	font-family: 'Apex New';
+	font-family: ApexNew-Book;
 	font-size: 18px;
     color: #00000;
 }
 
 a {
-	font-family: 'Apex New';
+	font-family: ApexNew-Book;
 	text-decoration: none;
 }
 
@@ -161,12 +170,12 @@ a:hover {
 }
 
 .js div#preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #333 url('http://files.mimoymima.com/images/loading.gif') no-repeat center center; }
-
-// Header
-
-
-
-// Footer
+/*.js div#preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #333 url('../images/cover.png') no-repeat center center ; background-size: cover; }*/
+.js div#preloader-welcome { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #232121 url('../images/welcome.png') no-repeat center center; background-size: cover }
+.js div#preloader-about { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #232121 url('../images/about.png') no-repeat center center; background-size: cover }
+.js div#preloader-projects { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #232121 url('../images/projects.png') no-repeat center center; background-size: cover }
+.js div#preloader-services { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #232121 url('../images/services.png') no-repeat center center; background-size: cover }
+.js div#preloader-contact { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #232121 url('../images/contact.png') no-repeat center center; background-size: cover }
 
 .navbar {
     position: relative;
