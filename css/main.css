@@ -101,7 +101,7 @@ footer {
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) { 
-	/* STYLES GO HERE */
+
 	#nav-settings {
   background-color: rgba(216,216,216,1);
   border-radius: 0px;
@@ -127,6 +127,11 @@ and (max-device-width : 667px) {
     -webkit-filter: brightness(70%);
     filter: brightness(70%);
 	}
+
+	.overflow {
+	height: 250px;
+  overflow: auto;
+}
 }
 
 
