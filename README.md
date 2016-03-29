@@ -1,2 +1,1 @@
-Daliah Vlach
-# daliahvlach
+# daliahvlach.github.io
