@@ -94,3 +94,40 @@ footer {
 	text-transform: uppercase;
 	font-family: 'ITC Berkeley Oldstyle Std'
 }
+
+
+/*Mobile Settings*/
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+	/* STYLES GO HERE */
+	#nav-settings {
+  background-color: rgba(216,216,216,1);
+  border-radius: 0px;
+  min-height: 30px;
+  text-align: center;
+	}
+
+	header {
+  background-color: rgba(216, 216, 216, 1);
+  padding-top: 10px;
+  }
+
+  .cbp-bislideshow {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    padding: 0;
+    margin: 0;
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
+	}
+}
+
+
+
