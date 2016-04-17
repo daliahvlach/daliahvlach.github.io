@@ -18,14 +18,14 @@
 	</head>
 	<body>
 	<div id="wrapper">
-	<div id="preloader-projects"></div>
+	<div id="preloader"></div>
 
 		<header >
 			<div class="container" align="center" >
 				<a href="index.html"><img src="images/logo.png" width="300px" alt="" class="src"></a>
 			</div>
 		</header>		
-		<div class="col-md-4 top-margin" >
+		<div class="col-md-4 top-margin margin" >
 			<h1 class="main-color">Projects</h1>
 				<a href="projects/contemporary-luxury.html" id="link"><h4 class="project-color">Contemporary Luxury</h4></a>
 				<a href="projects/a-touch-of-classic.html" id="link"><h4 class="project-color">A Touch of Classic</h4></a>
@@ -63,16 +63,16 @@
 
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav">
-			        <li><a href="index.html" class="hvr-underline-reveal" id="nav-style">HOME</a></li>
-			        <li><a href="about.html" class="hvr-underline-reveal" id="nav-style">ABOUT US</a></li>
-			        <li class="active"><a href="projects.html" class="hvr-underline-reveal" id="nav-style">PROJECTS</a></li>
-			        <li><a href="services.html" class="hvr-underline-reveal" id="nav-style">SERVICES</a></li>
-			        <li><a href="contact.html" class="hvr-underline-reveal" id="nav-style">CONTACT US</a></li>
+			      <ul class="nav navbar-nav menu">
+			        <li><a href="index.html" id="nav-style">HOME</a></li>
+			        <li><a href="about.html" id="nav-style">ABOUT US</a></li>
+			        <li class="active"><a href="projects.html" id="nav-style">PROJECTS</a></li>
+			        <li><a href="services.html" id="nav-style">SERVICES</a></li>
+			        <li><a href="contact.html" id="nav-style">CONTACT US</a></li>
 			      </ul>
 			      <ul class="nav navbar-nav navbar-right">
 			        <li><a href="#" id="nav-social"><i class="fa fa-facebook"></i></a></li>
-			        <li><a href="#" id="nav-social"><i class="fa fa-linkedin"></i></a></li>
+			        <li><a href="#" id="nav-social-bis"><i class="fa fa-linkedin"></i></a></li>
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
@@ -101,7 +101,7 @@
 			jQuery(document).ready(function ($) {
 			    $(window).load(function () {
 			        setTimeout(function(){
-			            $('#preloader-projects').fadeOut('slow',function(){$(this).remove();});
+			            $('#preloader').fadeOut('slow',function(){$(this).remove();});
 			        },1000); // set the time here
 			    });  
 			});

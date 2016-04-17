@@ -22,25 +22,14 @@
 
 		<header >
 			<div class="container" align="center" >
-				<a href="index.html"><img src="images/logo.png" width="300px" alt="" class="src"></a>
+				<a href="index.html"><img src="images/logo.png" width="281px" alt="" class="src"></a>
 			</div>
 		</header>	
-		<div class="col-md-4 top-margin" >
-			<h1 class="main-color">WELCOME</h1>
-			<p class="content-color">Welcome to DV Interiors, where we create
-				luxury living environments of impeccable
-				quality. 
-				<Br><br>
-				Our Nairobi based company provides
-				a comprehensive interior architectural and
-				decorative design service for high-end
-				residential and hospitality properties.
-				<Br>
-				Combining Swiss Perfection with London’s
-				Edge and Africa’s Spirit, we provide a
-				personalized service delivered to an
-				uncompromisingly high standard in order
-				to fulfill our Clients dreams.
+		<div class="col-md-4 top-margin margin">
+			<h1 class="main-color title">WELCOME</h1>
+				<p class="content-color">Welcome to DV Interiors, where we create luxury living environments of impeccable quality.  Our Nairobi based company provides a comprehensive interior architectural and decorative design service for high-end residential and hospitality properties. 
+				<br>
+				Combining Swiss Perfection with London’s Edge and Africa’s Spirit, we provide a personalized service delivered to an uncompromisingly high standard in order to fulfill our clients dreams.
 			</p>
 		</div>
 		<div class="container">
@@ -51,15 +40,22 @@
 					<li><img src="images/3.jpg" alt="image03"/></li>
 					<li><img src="images/4.jpg" alt="image04"/></li>
 				</ul>
-				<div id="cbp-bicontrols" class="cbp-bicontrols">
-					<span class="cbp-biprev hidden-xs"></span>
-					<!-- <span class="cbp-bipause"></span> -->
-					<span class="cbp-binext hidden-xs"></span>
-				</div>
+				
 			</div>
 		</div>
+		<div id="cbp-bicontrols" class="cbp-bicontrols">
+			<img src="images/left.png" class="cbp-biprev" id="arrow-left" alt="">
+			<img src="images/right.png" class="cbp-binext" id="arrow-right" alt="">
+
+			<!-- <i class="fa fa-chevron-left fa-2x cbp-biprev" ></i>
+			<i class="fa fa-chevron-right fa-2x cbp-binext" ></i> -->
+			<!-- <span class="cbp-biprev hidden-xs"></span> -->
+			<!-- <span class="cbp-bipause"></span> -->
+			<!-- <span class="cbp-binext hidden-xs"></span> -->
+		</div>
 		<footer >
-			<nav class="navbar navbar" id="nav-settings">
+			<nav class="navbar navbar" id="nav-settings" >
+				<!-- PROBLEM is display of nav-settings -->
 			  <div class="container-fluid">
 			    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="navbar-header">
@@ -74,16 +70,16 @@
 
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav">
-			        <li class="active"><a href="#" class="hvr-underline-reveal" id="nav-style">HOME</a></li>
-			        <li><a href="about.html" class="hvr-underline-reveal" id="nav-style">ABOUT US</a></li>
-			        <li><a href="projects.html" class="hvr-underline-reveal" id="nav-style">PROJECTS</a></li>
-			        <li><a href="services.html" class="hvr-underline-reveal" id="nav-style">SERVICES</a></li>
-			        <li><a href="contact.html" class="hvr-underline-reveal" id="nav-style">CONTACT US</a></li>
+			      <ul class="nav navbar-nav menu">
+			        <li class="active"><a href="#"  id="nav-style">HOME</a></li>
+			        <li><a href="about.html"  id="nav-style">ABOUT US</a></li>
+			        <li><a href="projects.html"  id="nav-style">PROJECTS</a></li>
+			        <li><a href="services.html"  id="nav-style">SERVICES</a></li>
+			        <li><a href="contact.html"  id="nav-style">CONTACT US</a></li>
 			      </ul>
 			      <ul class="nav navbar-nav navbar-right">
 			        <li><a href="#" id="nav-social"><i class="fa fa-facebook"></i></a></li>
-			        <li><a href="#" id="nav-social"><i class="fa fa-linkedin"></i></a></li>
+			        <li><a href="#" id="nav-social-bis"><i class="fa fa-linkedin"></i></a></li>
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
@@ -92,7 +88,7 @@
 	</div>
 	<!-- Scripts -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-		<!-- imagesLoaded jQuery plugin by @desandro : https://github.com/desandro/imagesloaded -->
+		
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -113,7 +109,12 @@
 			    $(window).load(function () {
 			        setTimeout(function(){
 			            $('#preloader-welcome').fadeOut('slow',function(){$(this).remove();});
-			        },1000); // set the time here
+			        },5000); // 
+			        $('#preloader-welcome').click(function() {
+			    			$('#preloader-welcome').slideUp('slow', function(){
+			    				$(this).remove();}
+			    				)
+			    		})
 			    });  
 			});
 		</script>

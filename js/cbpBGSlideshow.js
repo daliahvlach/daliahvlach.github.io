@@ -6,9 +6,9 @@ var cbpBGSlideshow = (function() {
 		itemsCount = $items.length,
 		$controls = $( '#cbp-bicontrols' ),
 		navigation = {
-			$navPrev : $controls.find( 'span.cbp-biprev' ),
-			$navNext : $controls.find( 'span.cbp-binext' ),
-			$navPlayPause : $controls.find( 'span.cbp-bipause' )
+			$navPrev : $controls.find( 'img.cbp-biprev' ),
+			$navNext : $controls.find( 'img.cbp-binext' ),
+			$navPlayPause : $controls.find( 'img.cbp-bipause' )
 		},
 		// current item´s index
 		current = 0,
@@ -16,8 +16,8 @@ var cbpBGSlideshow = (function() {
 		slideshowtime,
 		// true if the slideshow is active
 		isSlideshowActive = true,
-		// it takes 3.5 seconds to change the background image
-		interval = 3500;
+		// it takes 6 seconds to change the background image
+		interval = 6000;
 
 	function init( config ) {
 

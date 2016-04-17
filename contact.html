@@ -25,31 +25,43 @@
 				<a href="index.html"><img src="images/logo.png" width="300px" alt="" class="src"></a>
 			</div>
 		</header>		
-		<div class="col-md-4 top-margin" >
-			<h1 class="main-color">Contact</h1>
-			<p class="content-color">
+		<div class="col-md-5 top-margin margin" >
+			<h1 class="main-color title">Contact Us</h1>
+			 <!-- https://docs.google.com/a/deckode.com/forms/d/1XNJMX8YR_XwO7e4zojFRGhS7PlgpYOybgNm3Gd9Wkbk/prefill -->
+			 <!-- https://docs.google.com/a/deckode.com/forms/d/1XNJMX8YR_XwO7e4zojFRGhS7PlgpYOybgNm3Gd9Wkbk/viewform?entry.793895452=Gianni&entry.493751788=gianni@deckode.com&entry.313604422=07825810022&entry.1283394688=Hey,+I+just+met+you...+and+this+is+crazy...+so+here+is+my+number...+call+me+maybe -->
+			 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+				<script type="text/javascript">
+					var submitted=false;
+				</script>
+				<script type="text/javascript">
+				$('#gform').on('submit', function(e) {
+				  $('#gform *').fadeOut(2000);
+				  $('#gform').prepend('Your submission has been processed...');
+				  });
+				</script>
+
+			 <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/a/deckode.com/forms/d/1XNJMX8YR_XwO7e4zojFRGhS7PlgpYOybgNm3Gd9Wkbk/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
+				  <input class="input-size" type="text" name="entry.793895452" id="entry.793895452" placeholder="NAME"><br>
+				  <input class="input-size" type="text" name="entry.493751788" id="entry.493751788" placeholder="EMAIL"><br>
+				  <input class="input-size" type="number" name="entry.313604422" id="entry.313604422" placeholder="TELEPHONE"><br>
+				  <textarea class="input-size" type="text" name="entry.1283394688" id="entry.1283394688" placeholder="MESSAGE"></textarea><br>
+				  <input class="submit-size" type="submit"	value="Submit" >
+				</form>
+
+				<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+			<br>
+			<p class="content-color contact-text">
 				Our Studio is located on Karura Avenue, <br>
-				off Limuru Road, Muthaiga, Nairobi.
-				<br><br>
-				Please call ahead for an appointment.
-				<br><Br>
-				<b class="main-color">Daliah Vlach Interiors</b><Br>
+				off Limuru Road, Muthaiga, Nairobi.</p>
+				<p class="content-color contact-text">Please call ahead for an appointment.</p>
+				<p class="content-color contact-text">ADDRESS
+				Daliah Vlach Interiors
 				P.O. Box 41627<br>
 				c/o Sunflag Textiles Ltd.<br>
 				Kitui Road, Industrial Area<br>
 				Nairobi, Kenya<br><br>
-				<b class="main-color">TELEPHONE</b>: <a href="tel:+254 (0)735 277 135" id="link">+254 (0)735 277 135<br>
-				<b class="main-color">EMAIL</b>: <a href="mailto:info@daliahvlach" id="link">info@daliahvlach.com</a><br>
-			</p>
-		</div>
-		<div class="col-md-4 col-md-offset-1 top-margin hidden-sm hidden-xs">
-		<h1 class="main-color" >-</h1>
-			<p class="content-color">
-			
-			<img src="images/map.svg" alt="">
-				
-				<br><Br>
-				
+				TELEPHONE: <a href="tel:+254 (0)735 277 135" id="link">+254 (0)735 277 135<br>
+				EMAIL: <a href="mailto:info@daliahvlach" id="link">info@daliahvlach.com</a><br>
 			</p>
 		</div>
 
@@ -81,7 +93,7 @@
 
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav">
+			      <ul class="nav navbar-nav menu">
 			        <li><a href="index.html" class="hvr-underline-reveal" id="nav-style">HOME</a></li>
 			        <li><a href="about.html" class="hvr-underline-reveal" id="nav-style">ABOUT US</a></li>
 			        <li><a href="projects.html" class="hvr-underline-reveal" id="nav-style">PROJECTS</a></li>

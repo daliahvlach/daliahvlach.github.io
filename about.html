@@ -18,15 +18,15 @@
 	</head>
 	<body>
 	<div id="wrapper">
-	<div id="preloader-about"></div>
+	<div id="preloader"></div>
 
 		<header >
 			<div class="container" align="center" >
 				<a href="index.html"><img src="images/logo.png" width="300px" alt="" class="src"></a>
 			</div>
 		</header>		
-		<div class="col-md-4 col-sm-4 top-margin" >
-			<h1 class="main-color">About</h1>
+		<div class="col-md-4 col-sm-4 top-margin margin" >
+			<h1 class="main-color title">About</h1>
 			<p class="content-color overflow">Swiss born Daliah Vlach studied Interior Design as a second carrier path at KLC school of design at London’s Chelsea Harbor.
 				<br><br>
 					After a successful Diploma graduation she was employed for several years at high-end property development firm Candy & Candy in London where amongst others she designed and completed the residential property La Belle Epoque in Monaco. Daliah established her own company in Nairobi in 2009 and since then has successfully implemented several high-end residential as well as commercial projects.
@@ -37,9 +37,9 @@
 					<br class="visible-xs"><br class="visible-xs">
 					<img src="images/daliah-vlach.png" alt="" class="visible-xs"></p>
 		</div>
-		<div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 top-margin hidden-xs">
+	<!-- 	<div class="col-md-4 col-md-offset-3 col-sm-4 col-sm-offset-4 top-margin hidden-xs">
 			<img src="images/daliah-vlach.png" alt="">
-		</div>
+		</div> -->
 		<div class="container">
 			<div class="main">
 				<ul id="cbp-bislideshow" class="cbp-bislideshow">
@@ -49,13 +49,12 @@
 					<li><img src="images/about/4.jpg" alt="image04"/></li>
 					<li><img src="images/about/5.jpg" alt="image05"/></li>
 				</ul>
-				<div id="cbp-bicontrols" class="cbp-bicontrols">
-					<span class="cbp-biprev hidden-xs"></span>
-					<!-- <span class="cbp-bipause"></span> -->
-					<span class="cbp-binext hidden-xs"></span>
-				</div>
 			</div>
 		</div>
+		<div id="cbp-bicontrols" class="cbp-bicontrols">
+				<img src="images/left.png" class="cbp-biprev" id="arrow-left" alt="">
+				<img src="images/right.png" class="cbp-binext" id="arrow-right" alt="">
+			</div>
 		<footer >
 			<nav class="navbar navbar" id="nav-settings">
 			  <div class="container-fluid">
@@ -72,16 +71,16 @@
 
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav">
-			        <li><a href="index.html" class="hvr-underline-reveal" id="nav-style">HOME</a></li>
-			        <li class="active"><a href="about.html" class="hvr-underline-reveal" id="nav-style">ABOUT US</a></li>
-			        <li><a href="projects.html" class="hvr-underline-reveal" id="nav-style">PROJECTS</a></li>
-			        <li><a href="services.html" class="hvr-underline-reveal" id="nav-style">SERVICES</a></li>
-			        <li><a href="contact.html" class="hvr-underline-reveal" id="nav-style">CONTACT US</a></li>
+			      <ul class="nav navbar-nav menu">
+			        <li><a href="index.html" id="nav-style">HOME</a></li>
+			        <li class="active"><a href="about.html" id="nav-style">ABOUT US</a></li>
+			        <li><a href="projects.html" id="nav-style">PROJECTS</a></li>
+			        <li><a href="services.html" id="nav-style">SERVICES</a></li>
+			        <li><a href="contact.html" id="nav-style">CONTACT US</a></li>
 			      </ul>
 			      <ul class="nav navbar-nav navbar-right">
 			        <li><a href="#" id="nav-social"><i class="fa fa-facebook"></i></a></li>
-			        <li><a href="#" id="nav-social"><i class="fa fa-linkedin"></i></a></li>
+			        <li><a href="#" id="nav-social-bis"><i class="fa fa-linkedin"></i></a></li>
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
@@ -110,8 +109,8 @@
 			jQuery(document).ready(function ($) {
 			    $(window).load(function () {
 			        setTimeout(function(){
-			            $('#preloader-about').fadeOut('slow',function(){$(this).remove();});
-			        },1000); // set the time here
+			            $('#preloader').fadeOut('slow',function(){$(this).remove();});
+			        },2000); // set the time here
 			    });  
 			});
 		</script>
