@@ -3,7 +3,6 @@ header {
   background-color: rgba(216, 216, 216, 0.6);
   padding: 18px;
 }
-
 .top-margin {
   margin-top: 5%;
 }
@@ -13,24 +12,21 @@ header {
 /*Body*/
 .overflow {
   height: 300px;
-  overflow: auto; 
+  overflow: auto;
 }
-
 ::-webkit-scrollbar {
-    width: 0.2em;
-    height: 2em
+  width: 0.2em;
+  height: 2em;
 }
 ::-webkit-scrollbar-button {
-    background: #ccc
+  background: #cccccc;
 }
 ::-webkit-scrollbar-track-piece {
-    background: #888
+  background: #888888;
 }
 ::-webkit-scrollbar-thumb {
-    background: #eee
+  background: #eeeeee;
 }
-
-
 #link {
   color: #D8D8D8 ;
   text-decoration: none;
@@ -51,7 +47,7 @@ h6 {
   font-size: 18px;
 }
 .margin {
-	margin-left: 20px;
+  margin-left: 20px;
 }
 li a {
   font-family: 'ApexNew-Book';
@@ -60,20 +56,15 @@ li a {
 #tighten {
   margin-left: -10px;
 }
-
-#arrow-left  {
- width: 50px;
-
+#arrow-left {
+  width: 50px;
 }
 #arrow-right {
- width: 50px;
- /*margin-left: 50%; */
- position: absolute;
- right: 0;
+  width: 50px;
+  /*margin-left: 50%; */
+  position: absolute;
+  right: 0;
 }
-
-
-
 p {
   font-family: 'ApexNew-Book';
   font-size: 21px;
@@ -141,97 +132,96 @@ footer {
   text-transform: uppercase;
   font-family: 'ITC Berkeley Oldstyle Std';
 }
-
 /*Contact Page*/
-
-.contact-text{
-	font-size: 14px;
+.contact-text {
+  font-size: 14px;
 }
-
 .input-size {
-	width: 80%;
+  width: 80%;
   background-color: rgba(216, 216, 216, 0.6);
-	border: none;
-	margin-top: 14px;
+  border: none;
+  margin-top: 14px;
 }
 ::-webkit-input-placeholder {
-   color: #D8D8D8;
-   font-family: 'ApexNew-Book';
-   padding-left: 5px;
-
+  color: #D8D8D8;
+  font-family: 'ApexNew-Book';
+  padding-left: 5px;
 }
-
-:-moz-placeholder { /* Firefox 18- */
-   color: #D8D8D8;
-   font-family: 'ApexNew-Book';
-   padding-left: 5px;
-
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #D8D8D8;
+  font-family: 'ApexNew-Book';
+  padding-left: 5px;
 }
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #D8D8D8;
-   font-family: 'ApexNew-Book';
-   padding-left: 5px;
-
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #D8D8D8;
+  font-family: 'ApexNew-Book';
+  padding-left: 5px;
 }
-
-:-ms-input-placeholder {  
-   color: #D8D8D8;
-   font-family: 'ApexNew-Book';
-   padding-left: 5px;
-
+:-ms-input-placeholder {
+  color: #D8D8D8;
+  font-family: 'ApexNew-Book';
+  padding-left: 5px;
 }
 .submit-size {
-	width: 70px;
-	margin-top: 8px;
-	font-family: 'ApexNew-Book';
-	text-transform: uppercase;
-	background-color: rgba(216, 216, 216, 0.6);
-	border: none;
-	color: #D8D8D8;
-	padding-left: 5px;
+  width: 70px;
+  margin-top: 8px;
+  font-family: 'ApexNew-Book';
+  text-transform: uppercase;
+  background-color: rgba(216, 216, 216, 0.6);
+  border: none;
+  color: #D8D8D8;
+  padding-left: 5px;
 }
-
 form {
-	margin-top: -10px;
+  margin-top: -10px;
 }
-
-
-
-
 /*Mobile Settings*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
-  #nav-settings {
+  .nav-settings {
     background-color: #d8d8d8;
     border-radius: 0px;
     min-height: 30px;
     text-align: center;
   }
   #nav-style {
-  padding: 10px;
-  background-color: transparent;
-  color: #504746;
-  text-decoration: none;
-  border-bottom: 2px solid transparent;
-	}
-	#nav-style:hover {
-	  padding: 10px;
-	  background-color: transparent;
-	  color: #504746;
-	  border-bottom-color: #E29968;
-	  padding-bottom: 0px;
-	}
-	#nav-social {
-	  padding: 10px;
-	  background-color: transparent;
-	  color: #BB7F56;
-	}
-	#nav-social-bis {
-	  padding: 10px;
-	  background-color: transparent;
-	  color: #BB7F56;
-	  margin-left: -10px;
-	}
+    padding: 10px;
+    background-color: transparent;
+    color: #504746;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+  }
+  #nav-style:hover {
+    padding: 10px;
+    background-color: transparent;
+    color: #504746;
+    border-bottom-color: #E29968;
+    padding-bottom: 0px;
+  }
+  #nav-social {
+    padding: 10px;
+    background-color: transparent;
+    color: #BB7F56;
+  }
+  #nav-social-bis {
+    padding: 10px;
+    background-color: transparent;
+    color: #BB7F56;
+    margin-left: -10px;
+  }
+  .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 6px 20px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
   header {
     background-color: #d8d8d8;
     padding-top: 10px;
@@ -250,35 +240,35 @@ form {
     filter: brightness(70%);
   }
   .cbp-bicontrols {
-	position: fixed;
-	width: 100%;
-	height: 100px;
-	margin: 0px 0 0 0px;
-	top: 85%;
-	/*// left: 50%;*/
-}
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    margin: 0px 0 0 0px;
+    top: 85%;
+    /*// left: 50%;*/
+  }
   #arrow-right {
-	 width: 50px;
-	 margin-left: 30%; 
-	}
+    width: 50px;
+    margin-left: 30%;
+  }
+  .overflow-bis {
+    height: 300px;
+    overflow: auto;
+  }
   .overflow {
     height: 250px;
     overflow: auto;
   }
 }
-
-	/*Desktop < Mackbook Pro*/
-
-	@media only screen and (max-width: 1300px) {
-    .top-margin {
-		  margin-top: 0%;
-		}
-
-		.contact-text{
-			font-size: 14px;
-		}
-
-		#nav-settings {
-			margin-bottom: 5px;
-		}
+/*Desktop < Mackbook Pro*/
+@media only screen and (max-width: 1300px) {
+  .top-margin {
+    margin-top: 0%;
+  }
+  .contact-text {
+    font-size: 14px;
+  }
+  .nav-settings {
+    margin-bottom: 5px;
+  }
 }

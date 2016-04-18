@@ -40,7 +40,7 @@
 				  });
 				</script>
 
-			 <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/a/deckode.com/forms/d/1XNJMX8YR_XwO7e4zojFRGhS7PlgpYOybgNm3Gd9Wkbk/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
+			 <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/a/deckode.com/forms/d/1XNJMX8YR_XwO7e4zojFRGhS7PlgpYOybgNm3Gd9Wkbk/formResponse" target="hidden_iframe" onsubmit="submitted=true;" class="hidden-xs">
 				  <input class="input-size" type="text" name="entry.793895452" id="entry.793895452" placeholder="NAME"><br>
 				  <input class="input-size" type="text" name="entry.493751788" id="entry.493751788" placeholder="EMAIL"><br>
 				  <input class="input-size" type="number" name="entry.313604422" id="entry.313604422" placeholder="TELEPHONE"><br>
@@ -78,7 +78,37 @@
 			</div>
 		</div>
 		<footer >
-			<nav class="navbar navbar" id="nav-settings">
+		<nav class="navbar navbar nav-settings visible-xs" >
+				<!-- PROBLEM is display of nav-settings -->
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar" id="upper">Menu</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand visible-xs" href="index.html" id="upper">Daliah Vlach</a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav menu">
+			        <li><a href="index.html"  id="nav-style">HOME</a></li>
+			        <li><a href="about.html"  id="nav-style">ABOUT US</a></li>
+			        <li><a href="projects.html"  id="nav-style">PROJECTS</a></li>
+			        <li><a href="services.html"  id="nav-style">SERVICES</a></li>
+			        <li class="active"><a href="contact.html"  id="nav-style">CONTACT US</a></li>
+			      </ul>
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="#" id="nav-social"><i class="fa fa-facebook"></i></a></li>
+			        <li><a href="#" id="nav-social"><i class="fa fa-linkedin"></i></a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+			<nav class="navbar navbar hidden-xs" id="nav-settings">
 			  <div class="container-fluid">
 			    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="navbar-header">
