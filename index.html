@@ -34,7 +34,7 @@
 		</div>
 		<div class="col-md-4 top-margin margin visible-xs">
 			<h1 class="main-color title">WELCOME</h1>
-				<p class="content-color open">Open Info</p>
+				<p class="content-color open">OPEN INFO <i class="fa fa-caret-down" aria-hidden="true"></i></p>
 				<p class="content-color showpanel">Welcome to DV Interiors, where we create luxury living environments of impeccable quality.  
 				<br>Our Nairobi based company provides a comprehensive interior architectural and decorative design service for high-end residential and hospitality properties. 
 				<br>
@@ -64,17 +64,6 @@
 		<footer >
 			<!-- Static navbar -->
 			<div class="navbar navbar-static-top visible-xs" role="navigation" style="min-height: 15px;">
-			<style>
-				#menu {
-			  background: hsla(1,0%,100%,.9);
-			  position: fixed;
-			  top: 0;
-			  right: 0;
-			  left: 0;
-			  min-height: 100%;
-			  padding-top: 80px;
-			}
-			</style>
 			  <div class="container bouton">
 			  	<p class="mobile-menu pull-left" data-toggle="collapse" data-target="#menu" >
 			  		<span class="fa fa-bars main-color"></span>&nbsp;&nbsp;MENU</p>
@@ -86,13 +75,20 @@
 			</div>
 			<!-- Menu -->
 			<div id="menu" class="panel panel-default panel-collapse collapse">
-			  <div class="container">
+			  <div class="container col-xs-12">
 			    <ul class="nav nav-pills nav-stacked">
-			      <li class="active"><a href="#"  id="nav-style">HOME</a></li>
-		        <li><a href="about.html"  id="nav-style">ABOUT US</a></li>
-		        <li><a href="projects.html"  id="nav-style">PROJECTS</a></li>
-		        <li><a href="services.html"  id="nav-style">SERVICES</a></li>
-		        <li><a href="contact.html"  id="nav-style">CONTACT US</a></li>
+			      <li><a href="#" id="nav-style-mob">HOME</a></li>
+		        <li><a href="about.html"  id="nav-style-mob">ABOUT US</a></li>
+	        	<li><a href="#" id="nav-style-mob" class="project-up">PROJECTS</a></li>
+	        	<li><a href="#" class="project-down" id="nav-style-item">CONTEMPORARY LUXURY</a></li>
+            <li><a href="#" class="project-down" id="nav-style-item">A TOUCH OF CLASSIC</a></li>
+            <li><a href="#" class="project-down" id="nav-style-item">COLORFUL FAMILY FUN</a></li>
+            <li><a href="#" class="project-down" id="nav-style-item">CLOSE TO NATURE</a></li>
+		        <li><a href="#" id="nav-style-mob" class="service-up">SERVICES</a></li>
+		        <li><a href="#" class="service-down" id="nav-style-item">DESIGN</a></li>
+            <li><a href="#" class="service-down" id="nav-style-item">BESPOKE</a></li>
+            <li><a href="#" class="service-down" id="nav-style-item">CRAFTMANSHIP</a></li>
+		        <li><a href="contact.html"  id="nav-style-mob">CONTACT US</a></li>
 			    </ul>
 			  </div>
 			</div>
@@ -147,6 +143,7 @@
 			});
 		</script>
 		<script>
+		// Preloader
 			jQuery(document).ready(function ($) {
 			    $(window).load(function () {
 			        setTimeout(function(){
@@ -159,20 +156,54 @@
 			    		})
 			    });  
 			});
-
+			// OPEN INFO
 			$(document).ready(function(){
 				$('.showpanel').hide();
 		    $('.open').click(function(){
 		        var link = $(this);
 		        $('.showpanel').slideToggle('slow', function() {
 		            if ($(this).is(":visible")) {
-		                 link.text(' -');
+		                 link.text('  -');
 		            } else {
-		                 link.text('Open Info >');                
+		                 link.text('OPEN INFO');                
 		            }        
 		        });     
-		    });
-		});
+			   });
+			});
+			// Projects Function
+			$(document).ready(function(){
+				$('.project-down').hide();
+		    $('.project-up').click(function(){
+		    	$('.service-down').hide();
+		        var link = $(this);
+		        $('.project-up').show(); 
+		        $('.project-down').slideToggle('slow', function() {
+		           if ($(this).is(":active")) {
+		                 link.text('PROJECTS');
+		            } else {
+		                 link.text('PROJECTS');                
+		            }  
+		        });
+
+			   });
+			});
+			// Service Function
+			$(document).ready(function(){
+				$('.service-down').hide();
+		    $('.service-up').click(function(){
+		    	$('.project-down').hide();
+		        var link = $(this);
+		        $('.service-up').show(); 
+		        $('.service-down').slideToggle('slow', function() {
+		           if ($(this).is(":active")) {
+		                 link.text('SERVICES');
+		            } else {
+		                 link.text('SERVICES');                
+		            }  
+		        });
+
+			   });
+			});
 		</script>
 	</body>
 </html>

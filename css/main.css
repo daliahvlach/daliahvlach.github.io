@@ -181,11 +181,30 @@ form {
   margin-top: -10px;
 }
 /*Mobile Settings*/
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+@media only screen and (min-device-width: 300px) and (max-device-width: 667px) {
   p {
     font-family: 'ApexNew-Book';
     font-size: 16px;
-    color: #00000;
+    color: #000000;
+  }
+  #menu {
+    background:url('../images/menu.png');
+    background-size: cover;
+    position: fixed;
+    top: 58px;
+    right: 0;
+    left: 0;
+    min-height: 100%;
+    padding-top: 10px;
+    border: none;
+  }
+  .project-down {
+    left: 2%;
+    padding: 2px;
+  }
+  .service-down {
+    left: 2%;
+    padding: 2px;
   }
   .title {
     font-size: 25px;
@@ -196,19 +215,56 @@ form {
     min-height: 30px;
     text-align: center;
   }
-  #nav-style {
-    padding: 10px;
+  #nav-style-mob {
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-top: 10px;
     background-color: transparent;
-    color: #504746;
+    color: #d8d8d8;
     text-decoration: none;
     border-bottom: 2px solid transparent;
   }
-  #nav-style:hover {
-    padding: 10px;
+  #nav-style-mob:hover {
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-top: 10px;
+    margin-bottom: 12px;
     background-color: transparent;
-    color: #504746;
-    border-bottom-color: #E29968;
+    color: #d8d8d8;
+    border-bottom: 2px solid #BB7F56; 
+    border-bottom-left-radius: 0px; 
+    border-bottom-right-radius: 0px; 
+    display: table;
     padding-bottom: 0px;
+  }
+  #nav-style:focus {
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-top: 10px;
+    margin-bottom: 12px;
+    background-color: transparent;
+    color: #d8d8d8;
+    text-decoration: underline;
+    /*// border-bottom-color: #E29968;*/
+    padding-bottom: 0px;
+  }
+  #nav-style-item {
+    display: table;
+    padding: 2px;
+    background-color: transparent;
+    color: #d8d8d8;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+  }
+  #nav-style-item:hover {
+    display: table;
+    padding: 2px;
+    background-color: transparent;
+    color: #d8d8d8;
+    border-bottom: 2px solid #BB7F56; 
+    border-bottom-left-radius: 0px; 
+    border-bottom-right-radius: 0px; 
+    
   }
   #nav-social {
     padding: 10px;
