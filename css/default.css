@@ -159,6 +159,7 @@ a:hover {
   overflow: visible;
   /*background: #333333 url('http://files.mimoymima.com/images/loading.gif') no-repeat center center;*/
   background: #504645 url('../images/loading.gif') no-repeat center center;
+  background-size: 200px;
 }
 /*.js div#preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #333 url('../images/cover.png') no-repeat center center ; background-size: cover; }*/
 .js div#preloader-welcome {

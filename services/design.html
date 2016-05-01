@@ -22,10 +22,10 @@
 
 		<header >
 			<div class="container" align="center" >
-				<a href="../index.html"><img src="../images/logo.png" width="300px" alt="" class="src"></a>
+				<a href="../index.html"><img src="../images/logo.png" id="logo-img" alt="" class="src"></a>
 			</div>
-		</header>		
-		<div class="col-md-4 top-margin margin">
+		</header>	
+		<div class="col-md-4 top-margin margin hidden-xs">
 			<a href="../services.html" id="link"><h1 class="main-color">Services</h1></a>
 				<a href="../services.html" id="link"><h4 class="project-color">Design</h4></a>
 					<p class="content-color overflow" id="link">The whole design process is very clearly documented, so that the client, as well as all contractors involved know exactly what needs to be done at all times.
@@ -42,55 +42,78 @@
 					</p>
 				<a href="bespoke.html" id="link"><h4 class="project-other">Bespoke</h4></a>
 				<a href="craftmanship.html" id="link"><h4 class="project-other">Craftmanship</h4></a>
-		
+		</div>
+
+		<div class="col-md-4 top-margin margin visible-xs">
+			<a href="../services.html" id="link"><h1 class="main-color title">Services</h1></a>
+				<a href="../services.html" id="link"><h4 class="project-color">Design</h4></a>
+				<p class="content-color open">OPEN INFO <i class="fa fa-caret-down" aria-hidden="true"></i></p>
+					<p class="content-color overflow showpanel" id="link">The whole design process is very clearly documented, so that the client, as well as all contractors involved know exactly what needs to be done at all times.
+					<br><br>
+					We invest a lot of time in planning all the details of a project, from the initial property research, space planning, abstract mood concept, through to the sketches, drawings and material choices.
+					We believe that a well planned project avoids a lot of problems on site, saves time and unnecessary expenses, and makes sure, that the clients expectations are met.
+					<br>
+					From there we follow through by closely overlooking the site implementation, the manufacturing process of bespoke built joinery and furniture as well as the production of custom made soft furnishings.<br>
+						<Br>&nbsp; - Initial Client meeting and brief
+						<Br>&nbsp; - Concept Proposal with sketches and visuals
+						<Br>&nbsp; - Detailed Drawing packages, FF&E packages and presentation of all finishes and fabrics.
+						<Br>&nbsp; - Procurement and Project Management for site implementation.
+						<Br>&nbsp; - Finishing and dressing of the property.
+					</p>
 		</div>
 
 		<div class="container">
 			<div class="main">
 				<ul id="cbp-bislideshow" class="cbp-bislideshow">
-					<li><img src="../images/services/design/1.jpg" alt="image01"/></li>
-					<li><img src="../images/services/design/2.jpg" alt="image02"/></li>
-					<li><img src="../images/services/design/3.jpg" alt="image03"/></li>
-					<li><img src="../images/services/design/4.jpg" alt="image04"/></li>
+					<li id="design1"></li>
+					<li id="design2"></li>
+					<li id="design3"></li>
+					<li id="design4"></li>
 				</ul>
 			</div>
 		</div>
-		<div id="cbp-bicontrols" class="cbp-bicontrols hidden-xs">
+		<div id="cbp-bicontrols" class="cbp-bicontrols">
 					<img src="../images/left.png" class="cbp-biprev" id="arrow-left" alt="">
 					<img src="../images/right.png" class="cbp-binext" id="arrow-right" alt="">
 				</div>
 		<footer >
-		<nav class="navbar navbar nav-settings visible-xs" >
-				<!-- PROBLEM is display of nav-settings -->
-			  <div class="container-fluid">
-			    <!-- Brand and toggle get grouped for better mobile display -->
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar" id="upper">Menu</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			      <a class="navbar-brand visible-xs" href="index.html" id="upper">Daliah Vlach</a>
-			    </div>
+		<!-- Mobile Nav -->
+			<div class="navbar navbar-static-top visible-xs" role="navigation" style="min-height: 15px;">
+			  <div class="container bouton">
+			  	<p class="mobile-menu pull-left" data-toggle="collapse" data-target="#menu" >
+			  		<span class="fa fa-bars main-color"></span>&nbsp;&nbsp;MENU</p>
+			  <!-- TODO - Arrange the float -->
+			  		<a href="#"><i class="fa fa-linkedin" id="nav-social-bis" style="float:right"></i></a>
+			      <a href="#"><i class="fa fa-facebook" id="nav-social" style="float:right"></i></a>
+			      
+			  </div>
+			</div>
+			<!-- Menu -->
+			<div id="menu" class="panel panel-default panel-collapse collapse">
+			  <div class="container col-xs-12">
+			    <ul class="nav nav-pills nav-stacked">
+			      <li><a href="../index.html" id="nav-style-mob">HOME</a></li>
+		        <li><a href="../about.html"  id="nav-style-mob">ABOUT US</a></li>
+	        	<li><a href="#" id="nav-style-mob" class="project-up">PROJECTS</a></li>
+	        	<li><a href="../projects/contemporary-luxury.html" class="project-down" id="nav-style-item">
+	        	CONTEMPORARY LUXURY</a></li>
+            <li><a href="../projects/a-touch-of-classic.html" class="project-down" id="nav-style-item">
+            A TOUCH OF CLASSIC</a></li>
+            <li><a href="../projects/colorful-family-fun.html" class="project-down" id="nav-style-item">
+            COLORFUL FAMILY FUN</a></li>
+            <li><a href="../projects/close-to-nature.html" class="project-down" id="nav-style-item">
+            CLOSE TO NATURE</a></li>
+		        <li><a href="#" id="nav-style-mob" class="service-up">SERVICES</a></li>
+		        <li><a href="../services/design.html" class="service-down" id="nav-style-item">DESIGN</a></li>
+            <li><a href="../services/bespoke.html" class="service-down" id="nav-style-item">BESPOKE</a></li>
+            <li><a href="../services/craftmanship.html" class="service-down" id="nav-style-item">CRAFTMANSHIP</a></li>
+		        <li><a href="../contact.html"  id="nav-style-mob">CONTACT US</a></li>
+			    </ul>
+			  </div>
+			</div>
 
-			    <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav menu">
-			        <li><a href="../index.html"  id="nav-style">HOME</a></li>
-			        <li><a href="../about.html"  id="nav-style">ABOUT US</a></li>
-			        <li><a href="../projects.html"  id="nav-style">PROJECTS</a></li>
-			        <li class="active"><a href="../services.html"  id="nav-style">SERVICES</a></li>
-			        <li><a href="../contact.html"  id="nav-style">CONTACT US</a></li>
-			      </ul>
-			      <ul class="nav navbar-nav navbar-right">
-			        <li><a href="#" id="nav-social"><i class="fa fa-facebook"></i></a></li>
-			        <li><a href="#" id="nav-social"><i class="fa fa-linkedin"></i></a></li>
-			      </ul>
-			    </div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
-			</nav>
-			<nav class="navbar navbar hidden-xs" id="nav-settings">
+			<!-- Desktop Nav -->
+			<nav class="navbar navbar hidden-xs" id="nav-settings" >
 			  <div class="container-fluid">
 			    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="navbar-header">

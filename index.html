@@ -44,13 +44,15 @@
 		<div class="container">
 			<div class="main">
 				<ul id="cbp-bislideshow" class="cbp-bislideshow">
-					<li><img src="images/1.jpg" alt="image01"/></li>
-					<li><img src="images/2.jpg" alt="image02"/></li>
-					<li><img src="images/3.jpg" alt="image03"/></li>
-					<li><img src="images/4.jpg" alt="image04"/></li>
+					<li id="welcome1"></li>
+					<li id="welcome2"></li>
+					<li id="welcome3"></li>
+					<li id="welcome4"></li>
 				</ul>
 			</div>
 		</div>
+
+		
 		<div id="cbp-bicontrols" class="cbp-bicontrols">
 			<img src="images/left.png" class="cbp-biprev" id="arrow-left" alt="">
 			<img src="images/right.png" class="cbp-binext" id="arrow-right" alt="">
@@ -62,7 +64,7 @@
 			<!-- <span class="cbp-binext hidden-xs"></span> -->
 		</div>
 		<footer >
-			<!-- Static navbar -->
+			<!-- Mobile Nav -->
 			<div class="navbar navbar-static-top visible-xs" role="navigation" style="min-height: 15px;">
 			  <div class="container bouton">
 			  	<p class="mobile-menu pull-left" data-toggle="collapse" data-target="#menu" >
@@ -77,23 +79,28 @@
 			<div id="menu" class="panel panel-default panel-collapse collapse">
 			  <div class="container col-xs-12">
 			    <ul class="nav nav-pills nav-stacked">
-			      <li><a href="#" id="nav-style-mob">HOME</a></li>
+			      <li><a href="index.html" id="nav-style-mob">HOME</a></li>
 		        <li><a href="about.html"  id="nav-style-mob">ABOUT US</a></li>
 	        	<li><a href="#" id="nav-style-mob" class="project-up">PROJECTS</a></li>
-	        	<li><a href="#" class="project-down" id="nav-style-item">CONTEMPORARY LUXURY</a></li>
-            <li><a href="#" class="project-down" id="nav-style-item">A TOUCH OF CLASSIC</a></li>
-            <li><a href="#" class="project-down" id="nav-style-item">COLORFUL FAMILY FUN</a></li>
-            <li><a href="#" class="project-down" id="nav-style-item">CLOSE TO NATURE</a></li>
+	        	<li><a href="projects/contemporary-luxury.html" class="project-down" id="nav-style-item">
+	        	CONTEMPORARY LUXURY</a></li>
+            <li><a href="projects/a-touch-of-classic.html" class="project-down" id="nav-style-item">
+            A TOUCH OF CLASSIC</a></li>
+            <li><a href="projects/colorful-family-fun.html" class="project-down" id="nav-style-item">
+            COLORFUL FAMILY FUN</a></li>
+            <li><a href="projects/close-to-nature.html" class="project-down" id="nav-style-item">
+            CLOSE TO NATURE</a></li>
 		        <li><a href="#" id="nav-style-mob" class="service-up">SERVICES</a></li>
-		        <li><a href="#" class="service-down" id="nav-style-item">DESIGN</a></li>
-            <li><a href="#" class="service-down" id="nav-style-item">BESPOKE</a></li>
-            <li><a href="#" class="service-down" id="nav-style-item">CRAFTMANSHIP</a></li>
+		        <li><a href="services/design.html" class="service-down" id="nav-style-item">DESIGN</a></li>
+            <li><a href="services/bespoke.html" class="service-down" id="nav-style-item">BESPOKE</a></li>
+            <li><a href="services/craftmanship.html" class="service-down" id="nav-style-item">CRAFTMANSHIP</a></li>
 		        <li><a href="contact.html"  id="nav-style-mob">CONTACT US</a></li>
 			    </ul>
 			  </div>
 			</div>
+
+			<!-- Desktop Nav -->
 			<nav class="navbar navbar hidden-xs" id="nav-settings" >
-				<!-- PROBLEM is display of nav-settings -->
 			  <div class="container-fluid">
 			    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="navbar-header hidden-xs ">
@@ -143,7 +150,7 @@
 			});
 		</script>
 		<script>
-		// Preloader
+			// Preloader
 			jQuery(document).ready(function ($) {
 			    $(window).load(function () {
 			        setTimeout(function(){
@@ -155,54 +162,6 @@
 			    				)
 			    		})
 			    });  
-			});
-			// OPEN INFO
-			$(document).ready(function(){
-				$('.showpanel').hide();
-		    $('.open').click(function(){
-		        var link = $(this);
-		        $('.showpanel').slideToggle('slow', function() {
-		            if ($(this).is(":visible")) {
-		                 link.text('  -');
-		            } else {
-		                 link.text('OPEN INFO');                
-		            }        
-		        });     
-			   });
-			});
-			// Projects Function
-			$(document).ready(function(){
-				$('.project-down').hide();
-		    $('.project-up').click(function(){
-		    	$('.service-down').hide();
-		        var link = $(this);
-		        $('.project-up').show(); 
-		        $('.project-down').slideToggle('slow', function() {
-		           if ($(this).is(":active")) {
-		                 link.text('PROJECTS');
-		            } else {
-		                 link.text('PROJECTS');                
-		            }  
-		        });
-
-			   });
-			});
-			// Service Function
-			$(document).ready(function(){
-				$('.service-down').hide();
-		    $('.service-up').click(function(){
-		    	$('.project-down').hide();
-		        var link = $(this);
-		        $('.service-up').show(); 
-		        $('.service-down').slideToggle('slow', function() {
-		           if ($(this).is(":active")) {
-		                 link.text('SERVICES');
-		            } else {
-		                 link.text('SERVICES');                
-		            }  
-		        });
-
-			   });
 			});
 		</script>
 	</body>

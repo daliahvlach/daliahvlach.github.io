@@ -22,10 +22,10 @@
 
 		<header >
 			<div class="container" align="center" >
-				<a href="../index.html"><img src="../images/logo.png" width="300px" alt="" class="src"></a>
+				<a href="../index.html"><img src="../images/logo.png" id="logo-img" alt="" class="src"></a>
 			</div>
 		</header>		
-		<div class="col-md-4 top-margin margin">
+		<div class="col-md-4 top-margin margin hidden-xs">
 			<a href="../projects.html" id="link"><h1 class="main-color">Projects</h1></a>
 				<a href="contemporary-luxury.html" id="link"><h4 class="project-other">Contemporary Luxury</h4></a>
 				<a href="../projects.html" id="link"><h4 class="project-color">A Touch of Classic</h4></a>
@@ -42,59 +42,80 @@
 						made by Kenyan craftsmen.”</p>
 				<a href="colorful-family-fun.html" id="link"><h4 class="project-other">Colorful Family Fun</h4></a>
 				<a href="close-to-nature.html" id="link"><h4 class="project-other">Close to Nature</h4></a>
-		
+		</div>
+		<div class="col-md-4 top-margin margin visible-xs">
+			<a href="../projects.html" id="link"><h1 class="main-color title">Projects</h1></a>
+				<a href="../projects.html" id="link"><h4 class="project-color">A Touch of Classic</h4></a>
+				<p class="content-color open">OPEN INFO <i class="fa fa-caret-down" aria-hidden="true"></i></p>
+					<p class="content-color overflow showpanel">“Elements of traditional techniques and
+						patterns, handcrafted timberwork and
+						beautiful objects from the past have been
+						used in combination with contemporary,
+						fresh colors to create the sense of
+						heritage these clients were looking for.
+						The spaces in this home feel elegant,
+						rich and precious, but also warm and
+						welcoming due to the solid timber doors,
+						floors and joineries, all of which were
+						made by Kenyan craftsmen.”</p>
 		</div>
 
 		<div class="container">
 			<div class="main">
 				<ul id="cbp-bislideshow" class="cbp-bislideshow">
-					<li><img src="../images/projects/a-touch-of-classic/1.jpg" alt="image01"/></li>
-					<li><img src="../images/projects/a-touch-of-classic/2.jpg" alt="image02"/></li>
-					<li><img src="../images/projects/a-touch-of-classic/3.jpg" alt="image03"/></li>
-					<li><img src="../images/projects/a-touch-of-classic/4.jpg" alt="image04"/></li>
-					<li><img src="../images/projects/a-touch-of-classic/5.jpg" alt="image05"/></li>
-					<li><img src="../images/projects/a-touch-of-classic/6.jpg" alt="image06"/></li>
+					<li id="a-touch-of-classic1"></li>
+					<li id="a-touch-of-classic2"></li>
+					<li id="a-touch-of-classic3"></li>
+					<li id="a-touch-of-classic4"></li>
+					<li id="a-touch-of-classic5"></li>
+					<li id="a-touch-of-classic6"></li>
 				</ul>
 				
 				
 			</div>
 		</div>
-		<div id="cbp-bicontrols" class="cbp-bicontrols hidden-xs">
+		<div id="cbp-bicontrols" class="cbp-bicontrols">
 					<img src="../images/left.png" class="cbp-biprev" id="arrow-left" alt="">
 					<img src="../images/right.png" class="cbp-binext" id="arrow-right" alt="">
 				</div>
 		<footer >
-		<nav class="navbar navbar nav-settings visible-xs" >
-				<!-- PROBLEM is display of nav-settings -->
-			  <div class="container-fluid">
-			    <!-- Brand and toggle get grouped for better mobile display -->
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar" id="upper">Menu</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			      <a class="navbar-brand visible-xs" href="index.html" id="upper">Daliah Vlach</a>
-			    </div>
+		<!-- Mobile Nav -->
+			<div class="navbar navbar-static-top visible-xs" role="navigation" style="min-height: 15px;">
+			  <div class="container bouton">
+			  	<p class="mobile-menu pull-left" data-toggle="collapse" data-target="#menu" >
+			  		<span class="fa fa-bars main-color"></span>&nbsp;&nbsp;MENU</p>
+			  <!-- TODO - Arrange the float -->
+			  		<a href="#"><i class="fa fa-linkedin" id="nav-social-bis" style="float:right"></i></a>
+			      <a href="#"><i class="fa fa-facebook" id="nav-social" style="float:right"></i></a>
+			      
+			  </div>
+			</div>
+			<!-- Menu -->
+			<div id="menu" class="panel panel-default panel-collapse collapse">
+			  <div class="container col-xs-12">
+			    <ul class="nav nav-pills nav-stacked">
+			      <li><a href="../index.html" id="nav-style-mob">HOME</a></li>
+		        <li><a href="../about.html"  id="nav-style-mob">ABOUT US</a></li>
+	        	<li><a href="#" id="nav-style-mob" class="project-up">PROJECTS</a></li>
+	        	<li><a href="../projects/contemporary-luxury.html" class="project-down" id="nav-style-item">
+	        	CONTEMPORARY LUXURY</a></li>
+            <li><a href="../projects/a-touch-of-classic.html" class="project-down" id="nav-style-item">
+            A TOUCH OF CLASSIC</a></li>
+            <li><a href="../projects/colorful-family-fun.html" class="project-down" id="nav-style-item">
+            COLORFUL FAMILY FUN</a></li>
+            <li><a href="../projects/close-to-nature.html" class="project-down" id="nav-style-item">
+            CLOSE TO NATURE</a></li>
+		        <li><a href="#" id="nav-style-mob" class="service-up">SERVICES</a></li>
+		        <li><a href="../services/design.html" class="service-down" id="nav-style-item">DESIGN</a></li>
+            <li><a href="../services/bespoke.html" class="service-down" id="nav-style-item">BESPOKE</a></li>
+            <li><a href="../services/craftmanship.html" class="service-down" id="nav-style-item">CRAFTMANSHIP</a></li>
+		        <li><a href="../contact.html"  id="nav-style-mob">CONTACT US</a></li>
+			    </ul>
+			  </div>
+			</div>
 
-			    <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav menu">
-			        <li><a href="../index.html"  id="nav-style">HOME</a></li>
-			        <li><a href="../about.html"  id="nav-style">ABOUT US</a></li>
-			        <li class="active"><a href="../projects.html"  id="nav-style">PROJECTS</a></li>
-			        <li><a href="../services.html"  id="nav-style">SERVICES</a></li>
-			        <li><a href="../contact.html"  id="nav-style">CONTACT US</a></li>
-			      </ul>
-			      <ul class="nav navbar-nav navbar-right">
-			        <li><a href="#" id="nav-social"><i class="fa fa-facebook"></i></a></li>
-			        <li><a href="#" id="nav-social"><i class="fa fa-linkedin"></i></a></li>
-			      </ul>
-			    </div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
-			</nav>
-			<nav class="navbar navbar hidden-xs" id="nav-settings">
+			<!-- Desktop Nav -->
+			<nav class="navbar navbar hidden-xs" id="nav-settings" >
 			  <div class="container-fluid">
 			    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="navbar-header">
