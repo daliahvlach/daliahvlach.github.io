@@ -163,9 +163,11 @@
 		<script>
 			$('#gform').on('submit', function(e) {
 					
-				  $('#gform').fadeOut(2000);
-				  $('#gform').prepend('Your submission has been processed...');
-				  alert("Message Sent\n Thanks");
+				  // $('#gform').fadeOut(2000);
+				  $('#gform').prepend('<p style="color:white">Your Message has been submitted. Thank you</p>');
+				  $('input').hide();
+				  $('textarea').hide();
+				  // alert("Message Sent\n Thank you for your message");
 				  });
 		</script>
 	</body>
