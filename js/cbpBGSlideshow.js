@@ -136,14 +136,7 @@ var cbpBGSlideshow = (function() {
 			    		})
 			    });  
 			});
-// Preloader Loading gif
-			jQuery(document).ready(function ($) {
-			    $(window).load(function () {
-			        setTimeout(function(){
-			            $('#preloader').fadeOut('slow',function(){$(this).remove();});
-			        },2000); // set the time here
-			    });  
-			});
+
 			
 // OPEN INFO
 			$(document).ready(function(){
