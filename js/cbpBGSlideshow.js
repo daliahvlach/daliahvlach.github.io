@@ -116,3 +116,81 @@ var cbpBGSlideshow = (function() {
 
 })();
 
+
+
+
+
+
+// Preloader Part
+
+// Preloader Welcome Screen
+			jQuery(document).ready(function ($) {
+			    $(window).load(function () {
+			        setTimeout(function(){
+			            $('#preloader-welcome').fadeOut('slow',function(){$(this).remove();});
+			        },4000); // 
+			        $('#preloader-welcome').click(function() {
+			    			$('#preloader-welcome').slideUp('slow', function(){
+			    				$(this).remove();}
+			    				)
+			    		})
+			    });  
+			});
+// Preloader Loading gif
+			jQuery(document).ready(function ($) {
+			    $(window).load(function () {
+			        setTimeout(function(){
+			            $('#preloader').fadeOut('slow',function(){$(this).remove();});
+			        },2000); // set the time here
+			    });  
+			});
+			
+// OPEN INFO
+			$(document).ready(function(){
+				$('.showpanel').hide();
+		    $('.open').click(function(){
+		        var link = $(this);
+		        $('.showpanel').slideToggle('slow', function() {
+		            if ($(this).is(":visible")) {
+		                 link.text('  -');
+		            } else {
+		                 link.text('OPEN INFO');                
+		            }        
+		        });     
+			   });
+			});
+			// Projects Function
+			$(document).ready(function(){
+				$('.project-down').hide();
+		    $('.project-up').click(function(){
+		    	$('.service-down').hide();
+		        var link = $(this);
+		        $('.project-up').show(); 
+		        $('.project-down').slideToggle('slow', function() {
+		           if ($(this).is(":active")) {
+		                 link.text('PROJECTS');
+		            } else {
+		                 link.text('PROJECTS');                
+		            }  
+		        });
+
+			   });
+			});
+			// Service Function
+			$(document).ready(function(){
+				$('.service-down').hide();
+		    $('.service-up').click(function(){
+		    	$('.project-down').hide();
+		        var link = $(this);
+		        $('.service-up').show(); 
+		        $('.service-down').slideToggle('slow', function() {
+		           if ($(this).is(":active")) {
+		                 link.text('SERVICES');
+		            } else {
+		                 link.text('SERVICES');                
+		            }  
+		        });
+
+			   });
+			});
+
