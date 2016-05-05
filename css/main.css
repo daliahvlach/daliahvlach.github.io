@@ -1,4 +1,3 @@
-
 /*Header*/
 header {
   background-color: rgba(216, 216, 216, 0.6);
@@ -181,82 +180,178 @@ footer {
 form {
   margin-top: -10px;
 }
-
-
-
 /*Welcome Images*/
-#welcome1 { background-image: url('../images/1.jpg')!important;}
-#welcome2 { background-image: url('../images/2.jpg')!important;}
-#welcome3 { background-image: url('../images/3.jpg')!important;}
-#welcome4 { background-image: url('../images/4.jpg')!important;}
-
-#projects1 { background-image: url('../images/projects/1.jpg')!important;}
-
-#services1 { background-image: url('../images/services/1.jpg')!important;}
-
-#contact1 { background-image: url('../images/contact/1.jpg')!important;}
-
-#about1 { background-image: url('../images/about/1.jpg')!important;}
-#about2 { background-image: url('../images/about/2.jpg')!important;}
-#about3 { background-image: url('../images/about/3.jpg')!important;}
-#about4 { background-image: url('../images/about/4.jpg')!important;}
-#about5 { background-image: url('../images/about/5.jpg')!important;}
-
-#contemporary-luxury1 { background-image: url('../images/projects/contemporary-luxury/1.jpg')!important;}
-#contemporary-luxury2 { background-image: url('../images/projects/contemporary-luxury/2.jpg')!important;}
-#contemporary-luxury3 { background-image: url('../images/projects/contemporary-luxury/3.jpg')!important;}
-#contemporary-luxury4 { background-image: url('../images/projects/contemporary-luxury/4.jpg')!important;}
-#contemporary-luxury5 { background-image: url('../images/projects/contemporary-luxury/5.jpg')!important;}
-#contemporary-luxury6 { background-image: url('../images/projects/contemporary-luxury/6.jpg')!important;}
-#contemporary-luxury7 { background-image: url('../images/projects/contemporary-luxury/7.jpg')!important;}
-#contemporary-luxury8 { background-image: url('../images/projects/contemporary-luxury/8.jpg')!important;}
-#contemporary-luxury9 { background-image: url('../images/projects/contemporary-luxury/1.jpg')!important;}
-
-#a-touch-of-classic1 { background-image: url('../images/projects/a-touch-of-classic/1.jpg')!important;}
-#a-touch-of-classic2 { background-image: url('../images/projects/a-touch-of-classic/2.jpg')!important;}
-#a-touch-of-classic3 { background-image: url('../images/projects/a-touch-of-classic/3.jpg')!important;}
-#a-touch-of-classic4 { background-image: url('../images/projects/a-touch-of-classic/4.jpg')!important;}
-#a-touch-of-classic5 { background-image: url('../images/projects/a-touch-of-classic/5.jpg')!important;}
-#a-touch-of-classic6 { background-image: url('../images/projects/a-touch-of-classic/6.jpg')!important;}
-
-#colorful-family-fun1 { background-image: url('../images/projects/colorful-family-fun/1.jpg')!important;}
-#colorful-family-fun2 { background-image: url('../images/projects/colorful-family-fun/2.jpg')!important;}
-#colorful-family-fun3 { background-image: url('../images/projects/colorful-family-fun/3.jpg')!important;}
-#colorful-family-fun4 { background-image: url('../images/projects/colorful-family-fun/4.jpg')!important;}
-#colorful-family-fun5 { background-image: url('../images/projects/colorful-family-fun/5.jpg')!important;}
-#colorful-family-fun6 { background-image: url('../images/projects/colorful-family-fun/6.jpg')!important;}
-#colorful-family-fun7 { background-image: url('../images/projects/colorful-family-fun/1.jpg')!important;}
-
-#close-to-nature1 { background-image: url('../images/projects/close-to-nature/1.jpg')!important;}
-#close-to-nature2 { background-image: url('../images/projects/close-to-nature/2.jpg')!important;}
-#close-to-nature3 { background-image: url('../images/projects/close-to-nature/3.jpg')!important;}
-#close-to-nature4 { background-image: url('../images/projects/close-to-nature/4.jpg')!important;}
-#close-to-nature5 { background-image: url('../images/projects/close-to-nature/5.jpg')!important;}
-#close-to-nature6 { background-image: url('../images/projects/close-to-nature/6.jpg')!important;}
-#close-to-nature7 { background-image: url('../images/projects/close-to-nature/5.jpg')!important;}
-#close-to-nature8 { background-image: url('../images/projects/close-to-nature/3.jpg')!important;}
-
-#design1 { background-image: url('../images/services/design/1.jpg')!important;}
-#design2 { background-image: url('../images/services/design/2.jpg')!important;}
-#design3 { background-image: url('../images/services/design/3.jpg')!important;}
-#design4 { background-image: url('../images/services/design/4.jpg')!important;}
-
-#bespoke1 { background-image: url('../images/services/bespoke/1.jpg')!important;}
-#bespoke2 { background-image: url('../images/services/bespoke/2.jpg')!important;}
-#bespoke3 { background-image: url('../images/services/bespoke/3.jpg')!important;}
-#bespoke4 { background-image: url('../images/services/bespoke/4.jpg')!important;}
-#bespoke5 { background-image: url('../images/services/bespoke/3.jpg')!important;}
-
-#craftmanship1 { background-image: url('../images/services/craftmanship/1.jpg')!important;}
-#craftmanship2 { background-image: url('../images/services/craftmanship/2.jpg')!important;}
-#craftmanship3 { background-image: url('../images/services/craftmanship/3.jpg')!important;}
-#craftmanship4 { background-image: url('../images/services/craftmanship/4.jpg')!important;}
-#craftmanship5 { background-image: url('../images/services/craftmanship/3.jpg')!important;}
-#craftmanship6 { background-image: url('../images/services/craftmanship/2.jpg')!important;}
-
-
-
-
+#welcome1 {
+  background-image: url('../images/1.jpg') !important;
+}
+#welcome2 {
+  background-image: url('../images/2.jpg') !important;
+}
+#welcome3 {
+  background-image: url('../images/3.jpg') !important;
+}
+#welcome4 {
+  background-image: url('../images/4.jpg') !important;
+}
+#projects1 {
+  background-image: url('../images/projects/1.jpg') !important;
+}
+#services1 {
+  background-image: url('../images/services/1.jpg') !important;
+}
+#contact1 {
+  background-image: url('../images/contact/1.jpg') !important;
+}
+#about1 {
+  background-image: url('../images/about/1.jpg') !important;
+}
+#about2 {
+  background-image: url('../images/about/2.jpg') !important;
+}
+#about3 {
+  background-image: url('../images/about/3.jpg') !important;
+}
+#about4 {
+  background-image: url('../images/about/4.jpg') !important;
+}
+#about5 {
+  background-image: url('../images/about/5.jpg') !important;
+}
+#contemporary-luxury1 {
+  background-image: url('../images/projects/contemporary-luxury/1.jpg') !important;
+}
+#contemporary-luxury2 {
+  background-image: url('../images/projects/contemporary-luxury/2.jpg') !important;
+}
+#contemporary-luxury3 {
+  background-image: url('../images/projects/contemporary-luxury/3.jpg') !important;
+}
+#contemporary-luxury4 {
+  background-image: url('../images/projects/contemporary-luxury/4.jpg') !important;
+}
+#contemporary-luxury5 {
+  background-image: url('../images/projects/contemporary-luxury/5.jpg') !important;
+}
+#contemporary-luxury6 {
+  background-image: url('../images/projects/contemporary-luxury/6.jpg') !important;
+}
+#contemporary-luxury7 {
+  background-image: url('../images/projects/contemporary-luxury/7.jpg') !important;
+}
+#contemporary-luxury8 {
+  background-image: url('../images/projects/contemporary-luxury/8.jpg') !important;
+}
+#contemporary-luxury9 {
+  background-image: url('../images/projects/contemporary-luxury/1.jpg') !important;
+}
+#a-touch-of-classic1 {
+  background-image: url('../images/projects/a-touch-of-classic/1.jpg') !important;
+}
+#a-touch-of-classic2 {
+  background-image: url('../images/projects/a-touch-of-classic/2.jpg') !important;
+}
+#a-touch-of-classic3 {
+  background-image: url('../images/projects/a-touch-of-classic/3.jpg') !important;
+}
+#a-touch-of-classic4 {
+  background-image: url('../images/projects/a-touch-of-classic/4.jpg') !important;
+}
+#a-touch-of-classic5 {
+  background-image: url('../images/projects/a-touch-of-classic/5.jpg') !important;
+}
+#a-touch-of-classic6 {
+  background-image: url('../images/projects/a-touch-of-classic/6.jpg') !important;
+}
+#colorful-family-fun1 {
+  background-image: url('../images/projects/colorful-family-fun/1.jpg') !important;
+}
+#colorful-family-fun2 {
+  background-image: url('../images/projects/colorful-family-fun/2.jpg') !important;
+}
+#colorful-family-fun3 {
+  background-image: url('../images/projects/colorful-family-fun/3.jpg') !important;
+}
+#colorful-family-fun4 {
+  background-image: url('../images/projects/colorful-family-fun/4.jpg') !important;
+}
+#colorful-family-fun5 {
+  background-image: url('../images/projects/colorful-family-fun/5.jpg') !important;
+}
+#colorful-family-fun6 {
+  background-image: url('../images/projects/colorful-family-fun/6.jpg') !important;
+}
+#colorful-family-fun7 {
+  background-image: url('../images/projects/colorful-family-fun/1.jpg') !important;
+}
+#close-to-nature1 {
+  background-image: url('../images/projects/close-to-nature/1.jpg') !important;
+}
+#close-to-nature2 {
+  background-image: url('../images/projects/close-to-nature/2.jpg') !important;
+}
+#close-to-nature3 {
+  background-image: url('../images/projects/close-to-nature/3.jpg') !important;
+}
+#close-to-nature4 {
+  background-image: url('../images/projects/close-to-nature/4.jpg') !important;
+}
+#close-to-nature5 {
+  background-image: url('../images/projects/close-to-nature/5.jpg') !important;
+}
+#close-to-nature6 {
+  background-image: url('../images/projects/close-to-nature/6.jpg') !important;
+}
+#close-to-nature7 {
+  background-image: url('../images/projects/close-to-nature/5.jpg') !important;
+}
+#close-to-nature8 {
+  background-image: url('../images/projects/close-to-nature/3.jpg') !important;
+}
+#design1 {
+  background-image: url('../images/services/design/1.jpg') !important;
+}
+#design2 {
+  background-image: url('../images/services/design/2.jpg') !important;
+}
+#design3 {
+  background-image: url('../images/services/design/3.jpg') !important;
+}
+#design4 {
+  background-image: url('../images/services/design/4.jpg') !important;
+}
+#bespoke1 {
+  background-image: url('../images/services/bespoke/1.jpg') !important;
+}
+#bespoke2 {
+  background-image: url('../images/services/bespoke/2.jpg') !important;
+}
+#bespoke3 {
+  background-image: url('../images/services/bespoke/3.jpg') !important;
+}
+#bespoke4 {
+  background-image: url('../images/services/bespoke/4.jpg') !important;
+}
+#bespoke5 {
+  background-image: url('../images/services/bespoke/3.jpg') !important;
+}
+#craftmanship1 {
+  background-image: url('../images/services/craftmanship/1.jpg') !important;
+}
+#craftmanship2 {
+  background-image: url('../images/services/craftmanship/2.jpg') !important;
+}
+#craftmanship3 {
+  background-image: url('../images/services/craftmanship/3.jpg') !important;
+}
+#craftmanship4 {
+  background-image: url('../images/services/craftmanship/4.jpg') !important;
+}
+#craftmanship5 {
+  background-image: url('../images/services/craftmanship/3.jpg') !important;
+}
+#craftmanship6 {
+  background-image: url('../images/services/craftmanship/2.jpg') !important;
+}
 /*Mobile Settings*/
 @media only screen and (min-device-width: 300px) and (max-device-width: 667px) {
   p {
@@ -265,10 +360,10 @@ form {
     color: #000000;
   }
   #image1 {
-  background-image: url('../images/mobile/2.png')!important;
-}
+    background-image: url('../images/mobile/2.png') !important;
+  }
   #menu {
-    background:url('../images/menu.png');
+    background: url('../images/menu.png');
     background-size: cover;
     position: fixed;
     top: 58px;
@@ -311,9 +406,9 @@ form {
     margin-bottom: 12px;
     background-color: transparent;
     color: #d8d8d8;
-    border-bottom: 2px solid #BB7F56; 
-    border-bottom-left-radius: 0px; 
-    border-bottom-right-radius: 0px; 
+    border-bottom: 2px solid #BB7F56;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     display: table;
     padding-bottom: 0px;
   }
@@ -341,10 +436,9 @@ form {
     padding: 2px;
     background-color: transparent;
     color: #d8d8d8;
-    border-bottom: 2px solid #BB7F56; 
-    border-bottom-left-radius: 0px; 
-    border-bottom-right-radius: 0px; 
-    
+    border-bottom: 2px solid #BB7F56;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
   }
   #nav-social {
     padding: 10px;
@@ -402,9 +496,9 @@ form {
   .cbp-bicontrols {
     position: fixed;
     width: 100%;
-    height: 100px;
+    height: 50px;
     margin: 0px 0 0 0px;
-    top: 82%;
+    top: 80%;
     /*// left: 50%;*/
   }
   #arrow-right {
@@ -437,75 +531,172 @@ form {
   .mobile-menu {
     margin: 8px 0 0px;
   }
-
-
-
   /*Welcome Images*/
-  #welcome1 { background-image: url('../images/mobile/1.png')!important;}
-  #welcome2 { background-image: url('../images/mobile/2.png')!important;}
-  #welcome3 { background-image: url('../images/mobile/3.png')!important;}
-  #welcome4 { background-image: url('../images/mobile/4.png')!important;}
-
-  #contact1 { background-image: url('../images/mobile/contact/1.png')!important;}
-
-  #about1 { background-image: url('../images/mobile/about/1.png')!important;}
-  #about2 { background-image: url('../images/mobile/about/2.png')!important;}
-  #about3 { background-image: url('../images/mobile/about/3.png')!important;}
-  #about4 { background-image: url('../images/mobile/about/4.png')!important;}
-  #about5 { background-image: url('../images/mobile/about/5.png')!important;}
-
-  #contemporary-luxury1 { background-image: url('../images/mobile/projects/contemporary-luxury/1.png')!important;}
-  #contemporary-luxury2 { background-image: url('../images/mobile/projects/contemporary-luxury/2.png')!important;}
-  #contemporary-luxury3 { background-image: url('../images/mobile/projects/contemporary-luxury/3.png')!important;}
-  #contemporary-luxury4 { background-image: url('../images/mobile/projects/contemporary-luxury/4.png')!important;}
-  #contemporary-luxury5 { background-image: url('../images/mobile/projects/contemporary-luxury/5.png')!important;}
-  #contemporary-luxury6 { background-image: url('../images/mobile/projects/contemporary-luxury/6.png')!important;}
-  #contemporary-luxury7 { background-image: url('../images/mobile/projects/contemporary-luxury/7.png')!important;}
-  #contemporary-luxury8 { background-image: url('../images/mobile/projects/contemporary-luxury/8.png')!important;}
-  #contemporary-luxury9 { background-image: url('../images/mobile/projects/contemporary-luxury/9.png')!important;}
-
-  #a-touch-of-classic1 { background-image: url('../images/mobile/projects/a-touch-of-classic/1.png')!important;}
-  #a-touch-of-classic2 { background-image: url('../images/mobile/projects/a-touch-of-classic/2.png')!important;}
-  #a-touch-of-classic3 { background-image: url('../images/mobile/projects/a-touch-of-classic/3.png')!important;}
-  #a-touch-of-classic4 { background-image: url('../images/mobile/projects/a-touch-of-classic/4.png')!important;}
-  #a-touch-of-classic5 { background-image: url('../images/mobile/projects/a-touch-of-classic/5.png')!important;}
-  #a-touch-of-classic6 { background-image: url('../images/mobile/projects/a-touch-of-classic/6.png')!important;}
-
-  #colorful-family-fun1 { background-image: url('../images/mobile/projects/colorful-family-fun/1.png')!important;}
-  #colorful-family-fun2 { background-image: url('../images/mobile/projects/colorful-family-fun/2.png')!important;}
-  #colorful-family-fun3 { background-image: url('../images/mobile/projects/colorful-family-fun/3.png')!important;}
-  #colorful-family-fun4 { background-image: url('../images/mobile/projects/colorful-family-fun/4.png')!important;}
-  #colorful-family-fun5 { background-image: url('../images/mobile/projects/colorful-family-fun/5.png')!important;}
-  #colorful-family-fun6 { background-image: url('../images/mobile/projects/colorful-family-fun/6.png')!important;}
-  #colorful-family-fun7 { background-image: url('../images/mobile/projects/colorful-family-fun/7.png')!important;}
-
-  #close-to-nature1 { background-image: url('../images/mobile/projects/close-to-nature/1.png')!important;}
-  #close-to-nature2 { background-image: url('../images/mobile/projects/close-to-nature/2.png')!important;}
-  #close-to-nature3 { background-image: url('../images/mobile/projects/close-to-nature/3.png')!important;}
-  #close-to-nature4 { background-image: url('../images/mobile/projects/close-to-nature/4.png')!important;}
-  #close-to-nature5 { background-image: url('../images/mobile/projects/close-to-nature/5.png')!important;}
-  #close-to-nature6 { background-image: url('../images/mobile/projects/close-to-nature/6.png')!important;}
-  #close-to-nature7 { background-image: url('../images/mobile/projects/close-to-nature/7.png')!important;}
-  #close-to-nature8 { background-image: url('../images/mobile/projects/close-to-nature/8.png')!important;}
-
-  #design1 { background-image: url('../images/mobile/services/design/1.png')!important;}
-  #design2 { background-image: url('../images/mobile/services/design/2.png')!important;}
-  #design3 { background-image: url('../images/mobile/services/design/3.png')!important;}
-  #design4 { background-image: url('../images/mobile/services/design/4.png')!important;}
-
-  #bespoke1 { background-image: url('../images/mobile/services/bespoke/1.png')!important;}
-  #bespoke2 { background-image: url('../images/mobile/services/bespoke/2.png')!important;}
-  #bespoke3 { background-image: url('../images/mobile/services/bespoke/3.png')!important;}
-  #bespoke4 { background-image: url('../images/mobile/services/bespoke/4.png')!important;}
-  #bespoke5 { background-image: url('../images/mobile/services/bespoke/5.png')!important;}
-
-  #craftmanship1 { background-image: url('../images/mobile/services/craftmanship/1.png')!important;}
-  #craftmanship2 { background-image: url('../images/mobile/services/craftmanship/2.png')!important;}
-  #craftmanship3 { background-image: url('../images/mobile/services/craftmanship/3.png')!important;}
-  #craftmanship4 { background-image: url('../images/mobile/services/craftmanship/4.png')!important;}
-  #craftmanship5 { background-image: url('../images/mobile/services/craftmanship/5.png')!important;}
-  #craftmanship6 { background-image: url('../images/mobile/services/craftmanship/6.png')!important;}
-
+  #welcome1 {
+    background-image: url('../images/mobile/1.png') !important;
+  }
+  #welcome2 {
+    background-image: url('../images/mobile/2.png') !important;
+  }
+  #welcome3 {
+    background-image: url('../images/mobile/3.png') !important;
+  }
+  #welcome4 {
+    background-image: url('../images/mobile/4.png') !important;
+  }
+  #contact1 {
+    background-image: url('../images/mobile/contact/1.png') !important;
+  }
+  #about1 {
+    background-image: url('../images/mobile/about/1.png') !important;
+  }
+  #about2 {
+    background-image: url('../images/mobile/about/2.png') !important;
+  }
+  #about3 {
+    background-image: url('../images/mobile/about/3.png') !important;
+  }
+  #about4 {
+    background-image: url('../images/mobile/about/4.png') !important;
+  }
+  #about5 {
+    background-image: url('../images/mobile/about/5.png') !important;
+  }
+  #contemporary-luxury1 {
+    background-image: url('../images/mobile/projects/contemporary-luxury/1.png') !important;
+  }
+  #contemporary-luxury2 {
+    background-image: url('../images/mobile/projects/contemporary-luxury/2.png') !important;
+  }
+  #contemporary-luxury3 {
+    background-image: url('../images/mobile/projects/contemporary-luxury/3.png') !important;
+  }
+  #contemporary-luxury4 {
+    background-image: url('../images/mobile/projects/contemporary-luxury/4.png') !important;
+  }
+  #contemporary-luxury5 {
+    background-image: url('../images/mobile/projects/contemporary-luxury/5.png') !important;
+  }
+  #contemporary-luxury6 {
+    background-image: url('../images/mobile/projects/contemporary-luxury/6.png') !important;
+  }
+  #contemporary-luxury7 {
+    background-image: url('../images/mobile/projects/contemporary-luxury/7.png') !important;
+  }
+  #contemporary-luxury8 {
+    background-image: url('../images/mobile/projects/contemporary-luxury/8.png') !important;
+  }
+  #contemporary-luxury9 {
+    background-image: url('../images/mobile/projects/contemporary-luxury/9.png') !important;
+  }
+  #a-touch-of-classic1 {
+    background-image: url('../images/mobile/projects/a-touch-of-classic/1.png') !important;
+  }
+  #a-touch-of-classic2 {
+    background-image: url('../images/mobile/projects/a-touch-of-classic/2.png') !important;
+  }
+  #a-touch-of-classic3 {
+    background-image: url('../images/mobile/projects/a-touch-of-classic/3.png') !important;
+  }
+  #a-touch-of-classic4 {
+    background-image: url('../images/mobile/projects/a-touch-of-classic/4.png') !important;
+  }
+  #a-touch-of-classic5 {
+    background-image: url('../images/mobile/projects/a-touch-of-classic/5.png') !important;
+  }
+  #a-touch-of-classic6 {
+    background-image: url('../images/mobile/projects/a-touch-of-classic/6.png') !important;
+  }
+  #colorful-family-fun1 {
+    background-image: url('../images/mobile/projects/colorful-family-fun/1.png') !important;
+  }
+  #colorful-family-fun2 {
+    background-image: url('../images/mobile/projects/colorful-family-fun/2.png') !important;
+  }
+  #colorful-family-fun3 {
+    background-image: url('../images/mobile/projects/colorful-family-fun/3.png') !important;
+  }
+  #colorful-family-fun4 {
+    background-image: url('../images/mobile/projects/colorful-family-fun/4.png') !important;
+  }
+  #colorful-family-fun5 {
+    background-image: url('../images/mobile/projects/colorful-family-fun/5.png') !important;
+  }
+  #colorful-family-fun6 {
+    background-image: url('../images/mobile/projects/colorful-family-fun/6.png') !important;
+  }
+  #colorful-family-fun7 {
+    background-image: url('../images/mobile/projects/colorful-family-fun/7.png') !important;
+  }
+  #close-to-nature1 {
+    background-image: url('../images/mobile/projects/close-to-nature/1.png') !important;
+  }
+  #close-to-nature2 {
+    background-image: url('../images/mobile/projects/close-to-nature/2.png') !important;
+  }
+  #close-to-nature3 {
+    background-image: url('../images/mobile/projects/close-to-nature/3.png') !important;
+  }
+  #close-to-nature4 {
+    background-image: url('../images/mobile/projects/close-to-nature/4.png') !important;
+  }
+  #close-to-nature5 {
+    background-image: url('../images/mobile/projects/close-to-nature/5.png') !important;
+  }
+  #close-to-nature6 {
+    background-image: url('../images/mobile/projects/close-to-nature/6.png') !important;
+  }
+  #close-to-nature7 {
+    background-image: url('../images/mobile/projects/close-to-nature/7.png') !important;
+  }
+  #close-to-nature8 {
+    background-image: url('../images/mobile/projects/close-to-nature/8.png') !important;
+  }
+  #design1 {
+    background-image: url('../images/mobile/services/design/1.png') !important;
+  }
+  #design2 {
+    background-image: url('../images/mobile/services/design/2.png') !important;
+  }
+  #design3 {
+    background-image: url('../images/mobile/services/design/3.png') !important;
+  }
+  #design4 {
+    background-image: url('../images/mobile/services/design/4.png') !important;
+  }
+  #bespoke1 {
+    background-image: url('../images/mobile/services/bespoke/1.png') !important;
+  }
+  #bespoke2 {
+    background-image: url('../images/mobile/services/bespoke/2.png') !important;
+  }
+  #bespoke3 {
+    background-image: url('../images/mobile/services/bespoke/3.png') !important;
+  }
+  #bespoke4 {
+    background-image: url('../images/mobile/services/bespoke/4.png') !important;
+  }
+  #bespoke5 {
+    background-image: url('../images/mobile/services/bespoke/5.png') !important;
+  }
+  #craftmanship1 {
+    background-image: url('../images/mobile/services/craftmanship/1.png') !important;
+  }
+  #craftmanship2 {
+    background-image: url('../images/mobile/services/craftmanship/2.png') !important;
+  }
+  #craftmanship3 {
+    background-image: url('../images/mobile/services/craftmanship/3.png') !important;
+  }
+  #craftmanship4 {
+    background-image: url('../images/mobile/services/craftmanship/4.png') !important;
+  }
+  #craftmanship5 {
+    background-image: url('../images/mobile/services/craftmanship/5.png') !important;
+  }
+  #craftmanship6 {
+    background-image: url('../images/mobile/services/craftmanship/6.png') !important;
+  }
 }
 /*Desktop < Mackbook Pro*/
 @media only screen and (max-width: 1300px) {
