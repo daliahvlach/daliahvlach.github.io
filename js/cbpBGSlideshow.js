@@ -145,7 +145,7 @@ var cbpBGSlideshow = (function() {
 		        var link = $(this);
 		        $('.showpanel').slideToggle('slow', function() {
 		            if ($(this).is(":visible")) {
-		                 link.text('  -');
+		                 link.text('CLOSE INFO');
 		            } else {
 		                 link.text('OPEN INFO');                
 		            }        

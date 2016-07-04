@@ -120,6 +120,13 @@ footer {
   border-bottom-color: #E29968;
   padding-bottom: 0px;
 }
+#nav-style.active {
+  padding: 10px;
+  background-color: transparent;
+  color: #504746;
+  border-bottom-color: #E29968;
+  padding-bottom: 0px;
+}
 #nav-social {
   padding: 10px;
   background-color: transparent;
@@ -302,10 +309,10 @@ form {
   background-image: url('../images/projects/close-to-nature/6.jpg') !important;
 }
 #close-to-nature7 {
-  background-image: url('../images/projects/close-to-nature/5.jpg') !important;
+  background-image: url('../images/projects/close-to-nature/7.jpg') !important;
 }
 #close-to-nature8 {
-  background-image: url('../images/projects/close-to-nature/3.jpg') !important;
+  background-image: url('../images/projects/close-to-nature/1.jpg') !important;
 }
 #design1 {
   background-image: url('../images/services/design/1.jpg') !important;
@@ -347,10 +354,16 @@ form {
   background-image: url('../images/services/craftmanship/4.jpg') !important;
 }
 #craftmanship5 {
-  background-image: url('../images/services/craftmanship/3.jpg') !important;
+  background-image: url('../images/services/craftmanship/1.jpg') !important;
 }
 #craftmanship6 {
   background-image: url('../images/services/craftmanship/2.jpg') !important;
+}
+#craftmanship7 {
+  background-image: url('../images/services/craftmanship/3.jpg') !important;
+}
+#craftmanship8 {
+  background-image: url('../images/services/craftmanship/4.jpg') !important;
 }
 /*Mobile Settings*/
 @media only screen and (min-device-width: 300px) and (max-device-width: 667px) {
@@ -696,6 +709,12 @@ form {
   }
   #craftmanship6 {
     background-image: url('../images/mobile/services/craftmanship/6.png') !important;
+  }
+  #craftmanship7 {
+    background-image: url('../images/mobile/services/craftmanship/6.png') !important;
+  }
+  #craftmanship8 {
+    background-image: url('../images/mobile/services/craftmanship/1.png') !important;
   }
 }
 /*Desktop < Mackbook Pro*/
