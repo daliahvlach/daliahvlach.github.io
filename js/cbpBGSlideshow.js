@@ -1,4 +1,22 @@
 
+
+// Preloader Part
+
+// Preloader Welcome Screen
+			jQuery(document).ready(function ($) {
+			    $(window).load(function () {
+			        setTimeout(function(){
+			            $('#preloader-welcome').fadeOut('slow',function(){$(this).remove();});
+			        },4000); // 
+			        $('#preloader-welcome').click(function() {
+			    			$('#preloader-welcome').slideUp('slow', function(){
+			    				$(this).remove();}
+			    				)
+			    		})
+			    });  
+			});
+
+			
 var cbpBGSlideshow = (function() {
 
 	var $slideshow = $( '#cbp-bislideshow' ),
@@ -121,21 +139,7 @@ var cbpBGSlideshow = (function() {
 
 
 
-// Preloader Part
 
-// Preloader Welcome Screen
-			jQuery(document).ready(function ($) {
-			    $(window).load(function () {
-			        setTimeout(function(){
-			            $('#preloader-welcome').fadeOut('slow',function(){$(this).remove();});
-			        },4000); // 
-			        $('#preloader-welcome').click(function() {
-			    			$('#preloader-welcome').slideUp('slow', function(){
-			    				$(this).remove();}
-			    				)
-			    		})
-			    });  
-			});
 
 			
 // OPEN INFO
