@@ -339,7 +339,16 @@ form {
   background-image: url('../images/services/bespoke/4.jpg') !important;
 }
 #bespoke5 {
+  background-image: url('../images/services/bespoke/1.jpg') !important;
+}
+#bespoke6 {
+  background-image: url('../images/services/bespoke/2.jpg') !important;
+}
+#bespoke7 {
   background-image: url('../images/services/bespoke/3.jpg') !important;
+}
+#bespoke8 {
+  background-image: url('../images/services/bespoke/4.jpg') !important;
 }
 #craftmanship1 {
   background-image: url('../images/services/craftmanship/1.jpg') !important;
@@ -691,6 +700,15 @@ form {
   }
   #bespoke5 {
     background-image: url('../images/mobile/services/bespoke/5.png') !important;
+  }
+  #bespoke6 {
+    background-image: url('../images/mobile/services/bespoke/1.png') !important;
+  }
+  #bespoke7 {
+    background-image: url('../images/mobile/services/bespoke/2.png') !important;
+  }
+  #bespoke8 {
+    background-image: url('../images/mobile/services/bespoke/3.png') !important;
   }
   #craftmanship1 {
     background-image: url('../images/mobile/services/craftmanship/1.png') !important;
