@@ -108,6 +108,10 @@ footer {
 }
 #nav-style {
   padding: 10px;
+  padding-right: 0px;
+  padding-left:0px;
+  margin-left:10px;
+  margin-right: 10px;
   background-color: transparent;
   color: #504746;
   text-decoration: none;
@@ -115,6 +119,10 @@ footer {
 }
 #nav-style:hover {
   padding: 10px;
+  padding-right: 0px;
+  padding-left:0px;
+  margin-left:10px;
+  margin-right: 10px;
   background-color: transparent;
   color: #504746;
   border-bottom-color: #E29968;
@@ -122,6 +130,10 @@ footer {
 }
 #nav-style.active {
   padding: 10px;
+  padding-right: 0px;
+  padding-left:0px;
+  margin-left:10px;
+  margin-right: 10px;
   background-color: transparent;
   color: #504746;
   border-bottom-color: #E29968;
@@ -424,6 +436,7 @@ form {
   #nav-style-mob:hover {
     padding-bottom: 10px;
     padding-left: 0px;
+    padding-right: 0px;
     padding-top: 10px;
     margin-bottom: 12px;
     background-color: transparent;
@@ -437,6 +450,7 @@ form {
   #nav-style:focus {
     padding-bottom: 10px;
     padding-left: 0px;
+    padding-right: 0px;
     padding-top: 10px;
     margin-bottom: 12px;
     background-color: transparent;
