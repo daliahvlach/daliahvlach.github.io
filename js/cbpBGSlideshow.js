@@ -205,3 +205,5 @@ var cbpBGSlideshow = (function() {
 			   });
 			});
 
+			$('#loadingMask').fadeOut();
+

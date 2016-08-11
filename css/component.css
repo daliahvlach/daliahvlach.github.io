@@ -49,6 +49,8 @@
   margin: 0px 0 0 0px;
   top: 85%;
   padding-left: 3%;
+  -webkit-animation-delay: 4s; /* Chrome, Safari, Opera */
+    animation-delay: 4s;
 }
 .cbp-bicontrols span {
   float: left;
