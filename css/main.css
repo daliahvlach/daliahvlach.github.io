@@ -14,7 +14,7 @@ header {
 }
 /*Body*/
 .overflow {
-  height: 300px;
+  height: 250px;
   overflow: auto;
 }
 ::-webkit-scrollbar {
@@ -73,6 +73,9 @@ p {
   font-size: 19px;
   color: #00000;
   line-height: 25px;
+}
+.special {
+  line-height:20px;
 }
 a {
   font-family: 'ApexNew-Book';

@@ -142,12 +142,26 @@ var cbpBGSlideshow = (function() {
 
 
 			
-// OPEN INFO
+			// OPEN INFO Mobile
 			$(document).ready(function(){
 				$('.showpanel').hide();
 		    $('.open').click(function(){
 		        var link = $(this);
 		        $('.showpanel').slideToggle('slow', function() {
+		            if ($(this).is(":visible")) {
+		                 link.text('CLOSE INFO');
+		            } else {
+		                 link.text('OPEN INFO');                
+		            }        
+		        });     
+			   });
+			});
+			// OPEN INFO Desktop
+			$(document).ready(function(){
+				$('.desktop-showpanel').show();
+		    $('.desktop-open').click(function(){
+		        var link = $(this);
+		        $('.desktop-showpanel').slideToggle('slow', function() {
 		            if ($(this).is(":visible")) {
 		                 link.text('CLOSE INFO');
 		            } else {
